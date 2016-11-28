@@ -1,0 +1,72 @@
+/*
+Theme Name: Complete Theme
+Author: DesignCatsDog.com
+Author URL: www.designcatsdog.com 
+Description: Make your Basic Wordpress look that cute Cat and Dog in your neighbourhood that you loved to get turtle with and wanted one for you someday. Its for Mobile, Computer, Laptop thats to say its responsive. With this theme get support for WooCommerce, BuddyPress.
+Version: 1.0
+Tags: Bootstrap, Magazine, responsive, mobile ,sports, ecommerce, restaurants, buddypress, search-engine friendly, SEO, multi-colors, custom colors, side-bar , right sidebar, 3 sidebar, multi-column, 2 columns
+*/
+
+* {
+    /* outline-style: double;
+    outline-color: green; */
+}
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF THREE  */
+.span_3_of_3 { width: 100%; }
+.span_2_of_3 { width: 66.13%; }
+.span_1_of_3 { width: 32.26%; }
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+}
+
+/* Search Form */
+.searchform input[type="submit"]
+{
+	background:#3399FF;
+	border: navy 2px solid;
+	color: #FFF;
+	border-radiuss: 5px;
+}
+.searchform input[type="text"]
+{
+	background: #DDD;
+	padding: 3px;
+	color: #555;
+	border: #999 1px solid;
+	border-radius: 5px;
+}
+
+/* FOOTER */
+footer {
+	background: #333399;
+	width: 100%;
+	min-height: 50px;
+	clear: both;
+	color: #FFF;
+	text-align: center;
+}
