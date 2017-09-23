@@ -4,7 +4,7 @@ get_header();
 ?>
 <body>
 
-<h1>Parent Theme</h1>
+<h1>Child Theme</h1>
 
 <?php
 

@@ -13,6 +13,7 @@ get_header();
 <div class="section group">
 	
 	<div class="col span_3_of_3" style="background:#DD0">
+		<h2>Greetings</h2>
 
 	<?php 
 

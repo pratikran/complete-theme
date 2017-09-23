@@ -1,0 +1,17 @@
+/*
+Theme Name: Complete Theme Child 1.0
+Author: DesignCatsDog.com
+Author URL: www.designcatsdog.com 
+Description: This is child theme for Complete Theme
+Version: 1.0
+Tags: Bootstrap, Magazine, responsive, mobile ,sports, ecommerce, restaurants, buddypress, search-engine friendly, SEO, multi-colors, custom colors, side-bar , right sidebar, 3 sidebar, multi-column, 2 columns
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: complete-child
+Template: complete-theme
+*/
+
+body {
+	background-color: red;
+}
+
