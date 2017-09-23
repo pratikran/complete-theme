@@ -5,11 +5,30 @@ Author URL: www.designcatsdog.com
 Description: Make your Basic Wordpress look that cute Cat and Dog in your neighbourhood that you loved to get turtle with and wanted one for you someday. Its for Mobile, Computer, Laptop thats to say its responsive. With this theme get support for WooCommerce, BuddyPress.
 Version: 1.0
 Tags: Bootstrap, Magazine, responsive, mobile ,sports, ecommerce, restaurants, buddypress, search-engine friendly, SEO, multi-colors, custom colors, side-bar , right sidebar, 3 sidebar, multi-column, 2 columns
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: complete-theme
 */
 
 * {
     /* outline-style: double;
     outline-color: green; */
+}
+
+.alignright { 
+	float: right; 
+} 
+.alignleft { 
+	float: left; 
+} 
+.aligncenter { 
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto; 
+}
+
+body {
+	background-color: yellow;
 }
 
 /*  SECTIONS  */
@@ -62,11 +81,65 @@ Tags: Bootstrap, Magazine, responsive, mobile ,sports, ecommerce, restaurants, b
 }
 
 /* FOOTER */
-footer {
+footer
+{
 	background: #333399;
 	width: 100%;
 	min-height: 50px;
 	clear: both;
 	color: #FFF;
 	text-align: center;
+}
+
+#footer-menu a
+{
+	color: #FFF;
+}
+
+#footer-menu
+{
+	color: #FFF;
+	font-family: arial;
+	font-size: 9pt;
+}
+
+#footer-menu li
+{
+	display: inline;
+}
+
+/* LEFT SIDEBAR MENU */
+#left-sidebar-menu
+{
+	position: relative;
+}
+
+#left-sidebar-menu li
+{
+	border-bottom: 2px solid #005500;
+	padding: 5px 0px;
+	list-style-type: none;
+}
+
+#left-sidebar-menu a
+{
+	color: #090;
+	font-family: arial;
+	font-size: 10pt;
+	text-decoration: none;
+}
+
+.sub-menu li
+{
+	display: block;
+	background: #CFC;
+	width: 100%;
+	z-index: 1000000;
+}
+
+/* Google Map */
+#map 
+{
+	width:100%;
+	height:500px;
 }

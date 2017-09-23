@@ -14,22 +14,11 @@ get_header();
 
 	<?php 
 
+		echo "Shop!";
+		
 		echo "<h2>" . get_the_title() . "</h2>";
-		echo "<h4>" . get_the_date() . "</h4>";
 		
-		/* This section is for category and/or tags */
-		echo "<section>";
-		echo "</section>";
-		
-		if(have_posts()):
-		while(have_posts()): the_post();
-		
-		echo "Written by ";
-		the_author();
-		
-		the_content();
-		endwhile;
-		endif;
+		woocommerce_content()
 		
 	?>
 	</div>

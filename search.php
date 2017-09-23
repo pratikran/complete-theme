@@ -7,8 +7,8 @@ get_header();
 <h1><?php echo bloginfo('title'); ?></h1>
 <div class="section group">
 	<div class="col span_1_of_3">
-	<?php echo bloginfo('stylesheet_url'); ?><br>
-	<?php echo bloginfo('stylesheet_directory'); ?>/style.css
+	<?php echo esc_url(bloginfo('stylesheet_url')); ?><br>
+	<?php echo esc_url(bloginfo('get_stylesheet_directory_uri')); ?>/style.css
 	</div>
 	<div class="col span_1_of_3">
 	<?php 

@@ -5,6 +5,7 @@ get_header();
 <body>
 
 <h1>Parent Theme</h1>
+<?php echo '<a href="'.home_url().'">Home</a>' ?>
 
 <?php
 
@@ -64,7 +65,10 @@ wp_tag_cloud($args);
 
 		?>
 		
-		<?php 			
+		<?php 	
+
+			die();
+			
 			if(happy_new_year())
 			{
 				print '<h3>' . get_theme_mod('happy_new_year_message') . '</h3>'; 

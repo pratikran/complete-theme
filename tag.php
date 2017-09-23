@@ -12,27 +12,8 @@ get_header();
 	</div>
 	<div class="col span_1_of_3">
 	
-	<h1>Category: <?php echo single_cat_title();?></h1>
+	<h1>Tag: <?php echo single_cat_title();?></h1>
 	
-	<?php
-
-		//Add these conditional categories
-		// Put in the title of the category, not the slug
-		// This is meant only when categories have little differences otherwise keep >
-		// > catergories in separate filenames as filename with slug or ID etc 
-
-		if(is_category('Glam Metal'))
-		{
-			echo '<img src="https://i.ytimg.com/vi/jRTMO6fNatU/hqdefault.jpg"/>';
-		} elseif(is_category('Website')) {
-			echo 'This is a regular website!';
-		} else {
-			echo "Sorry, this website is not categorize under Glam Metal or Websites!";
-		}
-
-	?>
-	
-	<h3><?php echo category_description(); ?></h3>
 	
 	<?php 
 	
